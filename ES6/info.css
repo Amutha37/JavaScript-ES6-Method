@@ -1,0 +1,27 @@
+* {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+/* body {
+  width: 100%;
+  margin-top: 0;
+} */
+
+h1 {
+  padding: 4px;
+  margin-bottom: 15px;
+  text-align-last: center;
+  border: 3px solid rgb(21, 41, 218);
+  background-color: rgb(170, 224, 238);
+}
+
+p {
+  text-align: center;
+  font-family: courier;
+  font-size: 15px;
+  color: green;
+}
+.high {
+  color: blue;
+}

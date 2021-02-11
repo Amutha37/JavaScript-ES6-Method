@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Click the button to get the square root of each element in the array.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+      var numbers = [4, 9, 16, 25];
+
+      function myFunction() {
+        x = document.getElementById("demo");
+        x.innerHTML = numbers.map(Math.sqrt);
+      }
+      // printing full name using map from an object array
+    </script>
+    <script>
+      var persons = [
+        { firstname: "Malcom", lastname: "Reynolds" },
+        { firstname: "Kaylee", lastname: "Frye" },
+        { firstname: "Jayne", lastname: "Cobb" },
+      ];
+
+      function getFullName(item) {
+        var fullname = [item.firstname, item.lastname].join(" ");
+        return fullname;
+      }
+
+      function myFunction() {
+        document.getElementById("demo").innerHTML = persons.map(getFullName);
+      }
+    </script>
+  </body>
+</html>
